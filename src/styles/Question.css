@@ -1,0 +1,29 @@
+button {
+    font-family: "Pixelify Sans";
+    width: fit-content;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 3rem;
+
+    color: var(--black);
+    background-color: var(--grey);
+    border: 0.5rem solid var(--light-grey);
+
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button.selected{
+    background-color: var(--bright-green);
+    color: white;
+    border: 0.5rem solid var(--light-green);
+}
