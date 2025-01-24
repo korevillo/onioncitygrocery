@@ -42,13 +42,13 @@
 
 .resultImage {
     width: auto;
-    height: 15vh;
+    height: 10vh;
 }
 
 @media (max-width: 700px) {
     img.resultImage {
       width: auto;
-      height: 15vh;
+      height: 10vh;
     }
 
     img.compatImage {
@@ -60,12 +60,12 @@
 .resultName {
     max-width: min-content;
     padding: 0.5rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .description {
     text-align: left;
-    font-size: 0.9rem;
+    font-size: 0.65rem;
 
     margin-left: 2rem;
     margin-right: 2rem;
@@ -109,7 +109,7 @@
 
 .compatImage {
     width: auto;
-    height: 12vh;
+    height: 6vh;
 
     padding: 0.5rem;
 }
@@ -121,7 +121,7 @@
     font-family: "Pixelify Sans";
     color: var(--bright-green);
     font-weight: 400;
-    font-size: 1.75rem;
+    font-size: 1.25rem;
 }
 
 .attribution {

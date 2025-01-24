@@ -32,10 +32,10 @@
 }
 
 .center-vertical {
-  width: 90vw;
+  width: 100vw;
   height: calc(900vw * (19.5 / 9));
   max-height: 90vh;
-  max-width: calc(90vh * (9 / 19.5));
+  max-width: calc(110vh * (9 / 19.5));
 
   padding-top: calc(90vh * 0.05);
   padding-left: calc(90vw * 0.05);

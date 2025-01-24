@@ -112,7 +112,7 @@ const questions = [
 const onions = {
     "Yellow Onion": {
         image: yellow,
-        description: "You’re an absolute classic, and for good reason!\n\nYour compassion and loyalty are invaluable to your closest friendships, and you’ve got a resilience that shows your true strength and versatility when facing challenges.\n\nUnderneath your strong exterior, though, you’re an undeniably sweet soul.",
+        description: "You’re an absolute classic, and for good reason!\n\nYou're compassionate, loyal, and you show resilience and versatility when facing challenges.\n\nUnderneath your strong exterior, though, you’re an undeniably sweet soul.",
         compatible: "Leek",
     },
     "Green Onion": {
