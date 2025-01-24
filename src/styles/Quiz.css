@@ -1,0 +1,43 @@
+.next-btn {
+    background: none;
+    border: none;
+    font-family: "Roboto Mono";
+    font-size: 1rem;
+    color: var(--black);
+    width: fit-content;
+    cursor: pointer;
+}
+
+/*UPDATE WITH DISABLED STATE LOGIC*/
+.next-btn:disabled {
+    background: none;
+    padding: none;
+}
+
+.next-btn:hover {
+    text-decoration: underline;
+    color: var(--bright-green);
+    background: none;
+    padding: none;
+}
+
+.quiz-container-with-next {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 90vh;
+}
+
+/*Image customizations*/
+.border-img {
+    height: 10vh;
+    width: auto;
+  }
+  
+  @media (max-width: 700px) {
+    img.border-img {
+      width: 120vw;
+      height: auto;
+    }
+  }

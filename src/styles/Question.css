@@ -1,0 +1,57 @@
+/* Formatting question and answers */
+.question-answers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.question-title {
+    font-family: "Roboto Mono";
+    font-size: 1rem;
+    text-align: center;
+    color: var(--black);
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* Button styling */
+button {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 3rem;
+
+    color: var(--black);
+    background-color: var(--grey);
+    border: 0.25rem solid var(--light-grey);
+
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-name {
+    font-family: "Pixelify Sans";
+    width: fit-content;
+    font-size: 1rem;
+
+    padding-bottom: 0.25rem;
+}
+
+.button-detail {
+    font-family: "Roboto Mono";
+    font-size: 0.75rem;
+}
+
+button.selected{
+    background-color: var(--bright-green);
+    color: white;
+    border: 0.25rem solid var(--light-green);
+}
