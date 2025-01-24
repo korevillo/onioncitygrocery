@@ -112,43 +112,43 @@ const questions = [
 const onions = {
     "Yellow Onion": {
         image: yellow,
-        description: null,
-        compatible: [],
+        description: "You’re an absolute classic, and for good reason!\n\nYour compassion and loyalty are invaluable to your closest friendships, and you’ve got a resilience that shows your true strength and versatility when facing challenges.\n\nUnderneath your strong exterior, though, you’re an undeniably sweet soul.",
+        compatible: "Leek",
     },
     "Green Onion": {
         image: green,
-        description: null,
-        compatible: [],
+        description: "You’re a free spirit and a breath of fresh air.\n\nYou’re always bringing spontaneity to your friend group, keeping things interesting, and you’re great at thinking on your feet when solving problems.\n\nStill, you appreciate subtlety and quietly work toward becoming the best version of yourself.",
+        compatible: "Pearl Onion",
     },
     "Red Onion": {
         image: red,
-        description: null,
-        compatible: [],
+        description: "You are fiercely and unapologetically yourself—and unforgettable because of it!\n\nYour loyalty to your friends runs deep, even if it means dishing out some brutal honesty now and then. (Don’t worry—they love you for it. Just make sure you give yourself that same love in return!)",
+        compatible: "Shallot",
     },
     "Shallot": {
         image: shallot,
-        description: null,
-        compatible: [],
+        description: "You’re graceful and thoughtful, always remembering the little details about your friends and surprising them with the best gifts.\n\nYou take care in everything you do, from nurturing your friendships to overcoming challenges—always striving for a life of balance and harmony. <3",
+        compatible: "Red Onion",
     },
     "Leek": {
         image: leek,
-        description: null,
-        compatible: [],
+        description: "Hey, “mom friend”! :-) You’re the one who always puts others first, stays calm in the face of conflict, and offers empathetic, heartfelt advice when your friends need it most.\n\nJust remember to give yourself that same grace—you don’t need to be so hard on yourself!",
+        compatible: "Yellow Onion",
     },
     "Pearl Onion": {
         image: pearl,
-        description: null,
-        compatible: [],
+        description: "You’re sweet and effervescent, with a magical ability to brighten any room.\n\nYou keep things playful and optimistic in your friend group, and you have a true appreciation for life’s little joys.\n\nQuietly confident, you also have a strong and alluring sense of self.",
+        compatible: "Green Onion",
     },
     "French Onion Soup": {
         image: soup,
-        description: null,
-        compatible: [],
+        description: "You’re an old soul, always making people feel right at home.\n\nYou care deeply about making others feel comfortable and cared for, and your patience helps you tackle challenges with ease.\n\nDeep down, you’re super nostalgic—but that doesn’t mean you can’t create meaningful new memories!",
+        compatible: "Onion Rings",
     },
     "Onion Rings": {
         image: ring,
-        description: null,
-        compatible: [],
+        description: "You’re an icon, and you’re the moment!\n\nYour smile lights up the room, and you have an incredible ability to bring the energy up wherever you go.\n\nWhen tackling problems, you do it with bold, risk-taking confidence.\n\nStill, you’re authentically sweet and extremely thoughtful.",
+        compatible: "French Onion Soup",
     }
 }
 
@@ -208,6 +208,7 @@ function Quiz() {
       setCurrentQuestion(0);
       setScores({});
       setResult(null);
+      setSelectedAnswer(null);
     }
   
     if (result) {
