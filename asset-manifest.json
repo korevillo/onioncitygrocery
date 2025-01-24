@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/onioncitygrocery/static/css/main.0d400925.css",
-    "main.js": "/onioncitygrocery/static/js/main.ec3e46cf.js",
+    "main.css": "/onioncitygrocery/static/css/main.efef9a9e.css",
+    "main.js": "/onioncitygrocery/static/js/main.0c23088a.js",
     "index.html": "/onioncitygrocery/index.html",
-    "main.0d400925.css.map": "/onioncitygrocery/static/css/main.0d400925.css.map",
-    "main.ec3e46cf.js.map": "/onioncitygrocery/static/js/main.ec3e46cf.js.map"
+    "main.efef9a9e.css.map": "/onioncitygrocery/static/css/main.efef9a9e.css.map",
+    "main.0c23088a.js.map": "/onioncitygrocery/static/js/main.0c23088a.js.map"
   },
   "entrypoints": [
-    "static/css/main.0d400925.css",
-    "static/js/main.ec3e46cf.js"
+    "static/css/main.efef9a9e.css",
+    "static/js/main.0c23088a.js"
   ]
 }
