@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/onioncitygrocery/static/css/main.0d400925.css",
+    "main.js": "/onioncitygrocery/static/js/main.ec3e46cf.js",
+    "index.html": "/onioncitygrocery/index.html",
+    "main.0d400925.css.map": "/onioncitygrocery/static/css/main.0d400925.css.map",
+    "main.ec3e46cf.js.map": "/onioncitygrocery/static/js/main.ec3e46cf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d400925.css",
+    "static/js/main.ec3e46cf.js"
+  ]
+}
