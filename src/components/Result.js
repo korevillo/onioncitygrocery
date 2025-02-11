@@ -6,7 +6,7 @@ function Result({ onion, compatible, description, onionImage, compatibleImage, r
     <div className='resultArea'>
       <div className="resultContainer">
         <div className='resultHeader'>
-          <h1 className="headerTitle">♡₊˚ Your Onion Assignment・₊✧</h1>
+          <h1 className="headerTitle">♡₊˚ 1 FREE ONION!!!・₊✧</h1>
         </div>
 
         <div className='resultOnion'>
@@ -17,7 +17,7 @@ function Result({ onion, compatible, description, onionImage, compatibleImage, r
             <p className="description">{description}</p>
         </div>
 
-        <h2 className="pairTitle">⋆⭒ Your Produce Pal ˚｡⋆</h2>
+        <h2 className="pairTitle">⋆⭒ YOUR PRODUCE PAL ˚｡⋆</h2>
 
         <div className="compatOnion">
             <h2 className="compatName">{compatible}</h2>
